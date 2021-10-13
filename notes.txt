@@ -1,0 +1,35 @@
+redux = predictable state container for js apps
+      = not tied to react (can be used on other library/framework)
+      = state management library
+
+
+state container = stores state of app
+
+
+react-redux = official redux ui binding library for react
+            = bridge to work with react and redux
+            = required to be learned, some work clients need it
+
+
+>>> npm init --yes
+>>> npm i redux
+
+
+3 concepts in redux
+
+- store:
+      holds the state
+
+- action:
+      describes what will happen (intention)
+
+- reducer:
+      ties store and action together, state transition
+
+
+3 principles
+- state is stored in an object managed by a single store
+- only way to change state is to "dispatch" an "action"
+  (not allowed to directly update the state)
+- write pure reducers to specify how state tree is transformed by actions
+  ("reducers" return updated state)
