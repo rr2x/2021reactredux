@@ -52,3 +52,15 @@ middleware = extend redux with custom functionality
 
 >>> npx create-react-app react-redux-demo
 >>> npm i redux react-redux redux-logger
+
+
+redux devtools = useful extension/addon for inspecting react state
+      -> f12 -> redux tab
+
+      >>> npm i redux-devtools-extension
+      -> then setup the redux store (store.js)
+
+
+async action = action that needs to wait before changing state
+
+>>> npm i axios redux-thunk
