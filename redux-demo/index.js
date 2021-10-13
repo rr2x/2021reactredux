@@ -1,15 +1,15 @@
 const redux = require('redux')
 const reduxLogger = require('redux-logger')
 
-// action type
+// action-types
 const BUY_CAKE = 'BUY_CAKE'
 const BUY_ICECREAM = 'BUY_ICECREAM'
 
-// action creator
+// action-creators
 const buyCake = () => ({ type: BUY_CAKE, info: '1st redux action' })
 const buyIceCream = () => ({ type: BUY_ICECREAM, info: '2nd redux action' })
 
-// initial state
+// initial-state
 const initialCakeState = {
   numOfCakes: 10,
 }
