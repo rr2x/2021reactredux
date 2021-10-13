@@ -25,6 +25,8 @@ react-redux = official redux ui binding library for react
 
 - reducer:
       ties store and action together, state transition
+      function that accept state and action as arguments
+      returns new state
 
 
 3 principles
@@ -33,3 +35,11 @@ react-redux = official redux ui binding library for react
   (not allowed to directly update the state)
 - write pure reducers to specify how state tree is transformed by actions
   ("reducers" return updated state)
+
+
+>>> node index
+
+
+middleware = extend redux with custom functionality
+
+>>> npm i redux-logger   (provides good logging on redux)
