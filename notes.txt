@@ -51,4 +51,4 @@ middleware = extend redux with custom functionality
 ---------
 
 >>> npx create-react-app react-redux-demo
->>> npm i redux react-redux
+>>> npm i redux react-redux redux-logger
