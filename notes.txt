@@ -22,6 +22,8 @@ react-redux = official redux ui binding library for react
 
 - action:
       describes what will happen (intention)
+      action-type = type of action
+      action-creator = function that returns an object according to action type
 
 - reducer:
       ties store and action together, state transition
@@ -43,3 +45,10 @@ react-redux = official redux ui binding library for react
 middleware = extend redux with custom functionality
 
 >>> npm i redux-logger   (provides good logging on redux)
+
+>>> npm i axios redux-thunk
+
+---------
+
+>>> npx create-react-app react-redux-demo
+>>> npm i redux react-redux redux-logger
